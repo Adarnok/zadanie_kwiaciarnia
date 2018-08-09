@@ -1,0 +1,92 @@
+// html{
+//     font-size: 10px;
+// }
+header{
+margin: 0 auto;
+width: 80%;
+height: 105vh;
+align-items: center;
+background-color: rgba(255, 255, 255, 0.8);
+// border: 4px solid gray;
+
+position: relative;
+display: block;
+}
+body{
+    background: url('../img/4k-wallpaper-abstract-abstract-expressionism-1266808.jpg') center/cover no-repeat;
+    height: 100vh;
+    background-attachment: fixed;
+}
+// .blackout {
+//     height: 100%;
+//     width: 100%;
+//     background-color: rgba(255, 255, 255, 0.8);
+//     position: fixed;
+// }
+main{
+    // border: 4px solid blue;
+    // height: 200vh;
+    width: 80%;
+    align-items: center;
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.3);
+    position: relative;
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+}
+// .nav-link, .disabled{
+//     color: black;
+// }
+
+div.col-md{
+    font-size: 20px;
+    background-color: rgba(255, 255, 255, 0.6);
+    border: 1px solid gray;
+    border-radius: 5px;
+    color: #000;
+}
+// div.jumbotron{
+//     height: 30vh;
+//     margin: 0 auto;
+// }
+
+
+div.card{
+    margin: 10px auto;
+    border-radius: 7px;
+}
+
+
+
+@media (max-device-width : 450px)
+{
+    header{
+        height: 40vh;
+    }
+}
+
+@media (max-device-width : 600px)
+{
+    header{
+        height: 50vh;
+    }
+}
+@media (max-device-width : 800px)
+{
+    header{
+        height: 80vh;
+    }
+}
+
+footer{
+    height: 320px;
+    width: 80%;
+    background-color: rgba(13, 9, 19, 0.589);
+    color: tan;
+    position: relative;
+    padding: 10px;
+    position: relative;
+    text-align: center;
+    margin: 0 auto;
+}
